@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Canarinho the Legend</title>
+        <link rel="stylesheet" href="static/style.css"/>
+
+    </head>
+    <body>
+        <div class = "bloco_info">
+            Nome: Canarinho The Legend<br>Ocupação: Mascote da Seleção<br>
+            {% if pistola %}
+                <div class = 'bloco'>
+                <img src = "https://emc.acidadeon.com/dbimagens/mascote_ja_790x505_12062018093554.jpg" width="200" height="200"/> 
+                    <br>{{nome_mascote}} está PISTOLA!
+                </div>
+            {% else %}
+                <div class = 'bloco'>
+                <img src = "https://img.estadao.com.br/resources/jpg/0/4/1530909586240.jpg" width="200" height="200"/>  
+                    <br>{{nome_mascote}} está TRISTOLA!
+                </div>
+
+            {% endif %}
+        </div>   
+    </body>
+</html>
