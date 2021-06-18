@@ -1,0 +1,74 @@
+body {
+	font-family: 'Times New Roman', Times, serif;
+    background-color: gray;
+}
+
+.calculadora-dano {
+    margin-left: 10%;
+    margin-right: 10%;
+    border: 5px solid #080808;
+    border-radius: 10px;
+    background: url(https://images8.alphacoders.com/107/thumb-1920-1076527.jpg) no-repeat center fixed;
+    background-position: center;
+}
+.linha-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    color:gold;
+    background-color: darkblue; opacity: 0.7;
+    text-shadow: 2px 0 0 rgb(0, 0, 0), -2px 0 0 rgb(0, 0, 0), 0 2px 0 rgb(0, 0, 0), 0 -2px 0 rgb(0, 0, 0), 1px 1px rgb(0, 0, 0), -1px -1px 0 rgb(0, 0, 0), 1px -1px 0 rgb(0, 0, 0), -1px 1px 0 rgb(0, 0, 0);
+}
+
+.elemento-card {
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+    color:gold;
+    text-shadow: 2px 0 0 rgb(0, 0, 0), -2px 0 0 rgb(0, 0, 0), 0 2px 0 rgb(0, 0, 0), 0 -2px 0 rgb(0, 0, 0), 1px 1px rgb(0, 0, 0), -1px -1px 0 rgb(0, 0, 0), 1px -1px 0 rgb(0, 0, 0), -1px 1px 0 rgb(0, 0, 0);
+}
+
+.elementos-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.elemento {
+    cursor: pointer;
+}
+
+.elemento p {
+    text-align: center;
+    font-weight: bold;
+} 
+
+button {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: gold; 
+    border: black;
+    border-radius: 50px;
+    color: darkblue;
+    padding: 10px;
+    cursor: pointer;
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+.selecionado {
+    border: 2px solid darkblue;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+#dano {
+    font-size: medium;
+    font-weight: bold;
+}
